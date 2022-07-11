@@ -1,0 +1,24 @@
+{
+	"name": "nodejs-gulp",
+	"version": "1.0.0",
+	"description": "Gulp-based front-end workflow",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "gulp",
+		"watch": "gulp watch"
+	},
+	"author": "Fabio Perez",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.7",
+		"browser-sync": "^2.27.10",
+		"cssnano": "^5.1.12",
+		"gulp": "^4.0.2",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-postcss": "^9.0.1",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"sass": "^1.53.0"
+	}
+}
